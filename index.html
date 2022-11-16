@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input type="number" id="number" min="0" class="nbr" />
+
+    <label for="currencies">Choose a currency</label>
+
+    <select name="currencies" id="currencies">
+      <option value="EUR" selected>EUR</option>
+      <option value="USD">USD</option>
+      <option value="CHF">CHF</option>
+    </select>
+    <button class="button" id="convert">convert</button>
+    <span id="result"></span>
+  </body>
+  <script src="index.js"></script>
+</html>
