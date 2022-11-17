@@ -9,17 +9,19 @@
     <title>Document</title>
   </head>
   <body>
-    <input type="number" id="number" min="0" class="nbr" />
+    <div class="calculator">
+      <input type="number" id="number" min="0" class="nbr" />
 
-    <label for="currencies">Choose a currency</label>
+      <label for="currencies">Choose a currency</label>
 
-    <select name="currencies" id="currencies">
-      <option value="EUR" selected>EUR</option>
-      <option value="USD">USD</option>
-      <option value="CHF">CHF</option>
-    </select>
-    <button class="button" id="convert">convert</button>
-    <span id="result"></span>
+      <select name="currencies" id="currencies">
+        <option value="EUR" selected>EUR</option>
+        <option value="USD">USD</option>
+        <option value="CHF">CHF</option>
+      </select>
+      <button class="button" id="convert">convert</button>
+      <span id="result"></span>
+    </div>
   </body>
   <script src="index.js"></script>
 </html>

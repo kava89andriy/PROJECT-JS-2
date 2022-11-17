@@ -1,3 +1,16 @@
 body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
   background-image: url(calculator.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.calculator {
+  background: rgb(221, 217, 217);
+  padding: 40px;
+  border-radius: 3px;
 }
